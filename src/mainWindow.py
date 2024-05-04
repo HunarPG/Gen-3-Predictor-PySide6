@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QMainWindow
+from PySide6.QtWidgets import QMainWindow, QMessageBox
 from ui.ui_mainwindow import Ui_MainWindow
 
 class MainWindow(QMainWindow):
@@ -7,3 +7,10 @@ class MainWindow(QMainWindow):
 
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
+
+        self.ui.actionAbout.triggered.connect(self.openAboutWindow)
+    
+    def openAboutWindow(self):
+        title = "About"
+        text = "Pokemon Gen 3 Starter Manip v1.0\nCreated by MKDasher and JP_Xinnam\nPorted by HunarPG"
+        dialog = QMessageBox.information(self, title, text)
