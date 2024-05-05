@@ -31,6 +31,10 @@ class MainWindow(QMainWindow):
 
         self.ui.pushButton_UnCheck_All_Nature.clicked.connect(self.uncheck_all_clicked)
 
+        self.ui.pushButton_Clear_Constrain.clicked.connect(self.clear_constratin_clicked)
+
+        self.ui.pushButton_Clear_TID.clicked.connect(self.clear_tid_clicked)
+
     def exitWindow(self):
         self.close()
 
@@ -104,3 +108,24 @@ class MainWindow(QMainWindow):
         self.ui.checkBox_Nature_Sassy.setChecked(False)
         self.ui.checkBox_Nature_Careful.setChecked(False)
         self.ui.checkBox_Nature_Quirky.setChecked(False)
+    
+    def clear_constratin_clicked(self):
+        self.ui.lineEdit_HP_IV.clear()
+        self.ui.lineEdit_Minus_Attack_IV.clear()
+        self.ui.lineEdit_Minus_Defense_IV.clear()
+        self.ui.lineEdit_Minus_Special_Attack_IV.clear()
+        self.ui.lineEdit_Minus_Special_Defense_IV.clear()
+        self.ui.lineEdit_Minus_Speed_IV.clear()
+        self.ui.lineEdit_Neutral_Attack_IV.clear()
+        self.ui.lineEdit_Neutral_Defense_IV.clear()
+        self.ui.lineEdit_Neutral_Special_Attack_IV.clear()
+        self.ui.lineEdit_Neutral_Special_Defense_IV.clear()
+        self.ui.lineEdit_Neutral_Speed_IV.clear()
+        self.ui.lineEdit_Plus_Attack_IV.clear()
+        self.ui.lineEdit_Plus_Defense_IV.clear()
+        self.ui.lineEdit_Plus_Special_Attack_IV.clear()
+        self.ui.lineEdit_Plus_Special_Defense_IV.clear()
+        self.ui.lineEdit_Plus_Speed_IV.clear()
+    
+    def clear_tid_clicked(self):
+        self.ui.lineEdit_Trainer_ID.clear()

@@ -75,7 +75,7 @@
        <widget class="QLineEdit" name="lineEdit_HP_IV"/>
       </item>
       <item row="1" column="0">
-       <widget class="QLineEdit" name="lineEdit_Minu_Attack_IV"/>
+       <widget class="QLineEdit" name="lineEdit_Minus_Attack_IV"/>
       </item>
       <item row="1" column="1">
        <widget class="QLineEdit" name="lineEdit_Neutral_Attack_IV"/>
@@ -84,13 +84,13 @@
        <widget class="QLineEdit" name="lineEdit_Plus_Attack_IV"/>
       </item>
       <item row="2" column="0">
-       <widget class="QLineEdit" name="lineEdit_Minu_Defense_IV"/>
+       <widget class="QLineEdit" name="lineEdit_Minus_Defense_IV"/>
       </item>
       <item row="2" column="1">
        <widget class="QLineEdit" name="lineEdit_Neutral_Defense_IV"/>
       </item>
       <item row="2" column="2">
-       <widget class="QLineEdit" name="lineEdit_Plus_Attack_IV_2"/>
+       <widget class="QLineEdit" name="lineEdit_Plus_Defense_IV"/>
       </item>
       <item row="3" column="0">
        <widget class="QLineEdit" name="lineEdit_Minus_Special_Attack_IV"/>
