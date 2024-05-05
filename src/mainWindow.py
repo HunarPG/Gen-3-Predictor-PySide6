@@ -11,6 +11,8 @@ class MainWindow(QMainWindow):
         self.ui.actionExit.triggered.connect(self.exitWindow)
 
         self.ui.actionAbout.triggered.connect(self.openAboutWindow)
+
+        self.setFixedSize(750, 480)
     
     def exitWindow(self):
         self.close()
