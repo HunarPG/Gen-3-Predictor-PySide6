@@ -162,4 +162,4 @@ cython_debug/
 # Qt Files
 *.user
 ui/*.py
-resource/*.py
+resources/*.py

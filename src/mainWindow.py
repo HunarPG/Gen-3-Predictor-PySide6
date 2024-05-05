@@ -1,5 +1,7 @@
+from PySide6.QtGui import QPixmap
 from PySide6.QtWidgets import QMainWindow, QMessageBox
 from ui.ui_mainwindow import Ui_MainWindow
+import resources.rc_resource
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -15,6 +17,14 @@ class MainWindow(QMainWindow):
         self.add_pokemon()
 
         self.setFixedSize(750, 480)
+
+        self.ui.comboBox_Pokemon_Names.setCurrentIndex(6)
+
+        squirtle_image = QPixmap(":/pokemon_images/pokemon_images/Squirtle.png")
+        self.ui.label_Pokemon_Image.setPixmap(squirtle_image)
+        self.ui.label_Pokemon_Image.setScaledContents(True)
+
+        self.ui.comboBox_Pokemon_Names.currentIndexChanged.connect(self.change_Pokemon_Image)
     
     def exitWindow(self):
         self.close()
@@ -29,3 +39,8 @@ class MainWindow(QMainWindow):
             for line in f:
                 line = line.strip("\n")
                 self.ui.comboBox_Pokemon_Names.addItem(line)
+    
+    def change_Pokemon_Image(self):
+        self.image = QPixmap(":/pokemon_images/pokemon_images/" + self.ui.comboBox_Pokemon_Names.currentText() + ".png")
+        self.ui.label_Pokemon_Image.setPixmap(self.image)
+        self.ui.label_Pokemon_Image.setScaledContents(True)
