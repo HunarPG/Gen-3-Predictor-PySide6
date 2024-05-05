@@ -3,6 +3,7 @@
         "main.py",
         "ui/mainwindow.ui",
         "src/mainWindow.py",
-        "database/pokemon.txt"
+        "database/pokemon.txt",
+        "resource/resource.qrc"
     ]
 }
