@@ -32,7 +32,8 @@ class MainWindow(QMainWindow):
     def openAboutWindow(self):
         title = "About"
         text = "Pokemon Gen 3 Starter Manip v1.0\nCreated by MKDasher and JP_Xinnam\nPorted by HunarPG"
-        dialog = QMessageBox.information(self, title, text)
+        message = QMessageBox()
+        message.information(self, title, text)
     
     def add_pokemon(self):
         with open("database/pokemon.txt", "r") as f:
