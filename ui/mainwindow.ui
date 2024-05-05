@@ -67,7 +67,7 @@
        <x>132</x>
        <y>50</y>
        <width>121</width>
-       <height>131</height>
+       <height>121</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout">
@@ -127,7 +127,7 @@
        <x>10</x>
        <y>50</y>
        <width>99</width>
-       <height>131</height>
+       <height>121</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -482,7 +482,7 @@
        <x>20</x>
        <y>80</y>
        <width>70</width>
-       <height>71</height>
+       <height>81</height>
       </rect>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -613,7 +613,7 @@
    <widget class="QFrame" name="frame_Selected_Pokemon_IV">
     <property name="geometry">
      <rect>
-      <x>290</x>
+      <x>280</x>
       <y>339</y>
       <width>221</width>
       <height>71</height>
@@ -628,7 +628,7 @@
     <widget class="QLabel" name="label_Selected_Pokemon_IV">
      <property name="geometry">
       <rect>
-       <x>10</x>
+       <x>0</x>
        <y>-1</y>
        <width>231</width>
        <height>31</height>
