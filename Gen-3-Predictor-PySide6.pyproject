@@ -2,7 +2,7 @@
     "files": [
         "main.py",
         "ui/mainwindow.ui",
-        "src/mainWindow.py",
+        "src/ui/mainWindow.py",
         "database/pokemon.txt",
         "resources/resource.qrc"
     ]
