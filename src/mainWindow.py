@@ -12,6 +12,8 @@ class MainWindow(QMainWindow):
 
         self.ui.actionAbout.triggered.connect(self.openAboutWindow)
 
+        self.add_pokemon()
+
         self.setFixedSize(750, 480)
     
     def exitWindow(self):
@@ -21,3 +23,9 @@ class MainWindow(QMainWindow):
         title = "About"
         text = "Pokemon Gen 3 Starter Manip v1.0\nCreated by MKDasher and JP_Xinnam\nPorted by HunarPG"
         dialog = QMessageBox.information(self, title, text)
+    
+    def add_pokemon(self):
+        with open("database/pokemon.txt", "r") as f:
+            for line in f:
+                line = line.strip("\n")
+                self.ui.comboBox_Pokemon_Names.addItem(line)
