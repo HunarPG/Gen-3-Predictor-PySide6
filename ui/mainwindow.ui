@@ -58,7 +58,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>-                            Neutral                         +</string>
+      <string>         -                    Neutral                   +</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_HP_IV">
@@ -341,6 +341,213 @@
       <string>Uncheck All</string>
      </property>
     </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>551</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Hardy">
+          <property name="text">
+           <string>Hardy</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Lonely">
+          <property name="text">
+           <string>Lonely</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Brave">
+          <property name="text">
+           <string>Brave</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Adamant">
+          <property name="text">
+           <string>Adamant</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Naughty">
+          <property name="text">
+           <string>Naughty</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Bold">
+          <property name="text">
+           <string>Bold</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Docile">
+          <property name="text">
+           <string>Docile</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Relaxed">
+          <property name="text">
+           <string>Relaxed</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Impish">
+          <property name="text">
+           <string>Impish</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Lax">
+          <property name="text">
+           <string>Lax</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Timid">
+          <property name="text">
+           <string>Timid</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Hasty">
+          <property name="text">
+           <string>Hasty</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Serious">
+          <property name="text">
+           <string>Serious</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Jolly">
+          <property name="text">
+           <string>Jolly</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Naive">
+          <property name="text">
+           <string>Naive</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Modest">
+          <property name="text">
+           <string>Modest</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Mild">
+          <property name="text">
+           <string>Mild</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Quiet">
+          <property name="text">
+           <string>Quiet</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Bashful">
+          <property name="text">
+           <string>Bashful</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Rash">
+          <property name="text">
+           <string>Rash</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Calm">
+          <property name="text">
+           <string>Calm</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Gentle">
+          <property name="text">
+           <string>Gentle</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Sassy">
+          <property name="text">
+           <string>Sassy</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Careful">
+          <property name="text">
+           <string>Careful</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBox_Nature_Quirky">
+          <property name="text">
+           <string>Quirky</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_Starter_Pokemon">
     <property name="geometry">
@@ -386,70 +593,31 @@
     <widget class="QLineEdit" name="lineEdit_Trainer_ID">
      <property name="geometry">
       <rect>
-       <x>86</x>
-       <y>235</y>
-       <width>385</width>
-       <height>25</height>
+       <x>240</x>
+       <y>238</y>
+       <width>231</width>
+       <height>26</height>
       </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Trainer_ID">
-     <property name="geometry">
-      <rect>
-       <x>12</x>
-       <y>235</y>
-       <width>61</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Trainer ID</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Max_Frame">
-     <property name="geometry">
-      <rect>
-       <x>12</x>
-       <y>204</y>
-       <width>68</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Max Frame</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_Max_Frame">
      <property name="geometry">
       <rect>
-       <x>86</x>
-       <y>204</y>
-       <width>385</width>
-       <height>25</height>
+       <x>240</x>
+       <y>206</y>
+       <width>231</width>
+       <height>26</height>
       </rect>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEdit_Minimum_Frame">
      <property name="geometry">
       <rect>
-       <x>86</x>
-       <y>173</y>
-       <width>385</width>
-       <height>25</height>
+       <x>240</x>
+       <y>174</y>
+       <width>231</width>
+       <height>26</height>
       </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_Min_Frame">
-     <property name="geometry">
-      <rect>
-       <x>12</x>
-       <y>173</y>
-       <width>66</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Min Frame</string>
      </property>
     </widget>
     <widget class="QFrame" name="frame_Pokemon_Image">
@@ -467,32 +635,75 @@
      <property name="frameShadow">
       <enum>QFrame::Shadow::Raised</enum>
      </property>
-    </widget>
-    <widget class="QLabel" name="label_Pokemon_Name">
-     <property name="geometry">
-      <rect>
-       <x>12</x>
-       <y>141</y>
-       <width>59</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Pokemon</string>
-     </property>
+     <widget class="QLabel" name="label_Pokemon_Image">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>151</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pokemon Image</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
     </widget>
     <widget class="QComboBox" name="comboBox_Pokemon_Names">
      <property name="geometry">
       <rect>
-       <x>86</x>
-       <y>141</y>
-       <width>381</width>
+       <x>240</x>
+       <y>142</y>
+       <width>231</width>
        <height>26</height>
       </rect>
      </property>
      <property name="editable">
       <bool>true</bool>
      </property>
+    </widget>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>13</x>
+       <y>140</y>
+       <width>70</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_Pokemon_Name">
+        <property name="text">
+         <string>Pokemon</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_Min_Frame">
+        <property name="text">
+         <string>Min Frame</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_Max_Frame">
+        <property name="text">
+         <string>Max Frame</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_Trainer_ID">
+        <property name="text">
+         <string>Trainer ID</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QGroupBox" name="groupBox_Pokemon_Found_List">
@@ -510,7 +721,7 @@
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
-    <widget class="QScrollBar" name="verticalScrollBar">
+    <widget class="QScrollBar" name="verticalScrollBar_Pokemon_Found_List">
      <property name="geometry">
       <rect>
        <x>550</x>
@@ -521,6 +732,16 @@
      </property>
      <property name="orientation">
       <enum>Qt::Orientation::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tableView_Pokemon_Found">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>21</y>
+       <width>531</width>
+       <height>211</height>
+      </rect>
      </property>
     </widget>
    </widget>
