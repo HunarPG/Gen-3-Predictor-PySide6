@@ -163,3 +163,4 @@ cython_debug/
 *.user
 ui/*.py
 resources/*.py
+.qtcreator
